@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <style> 
+      .text {color: rgb(95, 53, 2);}
+      body {text-align: center; background-color: bisque; font-style:oblique;}
+      h1 {font-size: 120px; margin-top: 0.5em; margin-bottom: 0.4em}
+      h2 {font-size: 80px; background-color: rgba(95, 53, 2, 0.338);}
+      article {font-size: 30px;}
+      #mm-about-us {margin-right: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-weddings {margin-left: 20px; margin-right: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-funerals {margin-left: 20px; margin-right: 20px; background-color: rgba(95, 53, 2, 0.338) ; color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-events {margin-left: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #btn-about-us {background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 30px; padding: 2px 10px 2px 10px;}
+      #btn-weddings {background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 30px; padding: 2px 10px 2px 10px;}
+      #btn-funerals {background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 30px; padding: 2px 10px 2px 10px;}
+      #btn-events {background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 30px; padding: 2px 10px 2px 10px;}
+      #hl-instagram {width: 60px; border-radius: 50px; margin: 20px}
+      #hl-tiktok {width: 60px; border-radius: 50px; margin: 20px;}
+      #hl-facebook {width: 60px; border-radius: 50px; margin: 20px;}
+    </style>
+    <header>
+      <h1 class="text"> SJC Floral Creations </h1>
+      <a href="http://127.0.0.1:3000/About Us" id="mm-about-us"> About Us </a>
+      <a href="http://127.0.0.1:3000/Weddings" id="mm-weddings"> Weddings </a>
+      <a href="http://127.0.0.1:3000/Funerals" id="mm-funerals"> Funerals </a>
+      <a href="http://127.0.0.1:3000/Events" id="mm-events"> Events </a>
+      <P>
+      <img src="homepicture.jpg" width="1000px" height="600px">
+      <h2 class="text"> 
+        Weddings - Funerals - Events 
+      </h2>
+    </header>
+      <main>
+        <article class="text">
+        <p> SJC Creations is a floral design business based in Bexley.
+          We flower for weddings,<br>funerals & events in London and surrounding
+          areas.
+        </article>
+          <nav>
+            <a href="http://127.0.0.1:3000/About Us" id="btn-about-us"> About Us
+            </a> 
+          </nav>
+            <p>
+              <img src="homepicture1.jpg" width="1000px" height="600px">
+          <nav>
+            <a href="http://127.0.0.1:3000/Weddings" id="btn-weddings"> Weddings </a>
+          </nav>
+            <p>
+              <img src="homepicture4.jpg" width="1000px" height="600px">
+          <nav>
+            <a href="http://127.0.0.1:3000/Funerals" id="btn-funerals"> Funerals </a>
+          </nav>
+            <p>
+              <img src="homepicture3.jpg" width="1000px" width="600px">
+          <nav>
+            <a href="http://127.0.0.1:3000/Events" id="btn-events"> Events </a>
+          </nav>
+            <p>
+              <img src="homepicture2.jpg" width="1000px" height="600px">
+      </main>
+        <footer>
+          <!-- add the logos for the social medias -->
+          <a href="https://www.instagram.com/sjcfloralcreations/?hl=en"> <img src="instagram.jpg" id="hl-instagram"> </a>
+          <a href="https://www.tiktok.com/@sjcfloralcreations?lang=en" > <img src="tiktok.jpg" id="hl-tiktok"> </a>
+          <a href="https://www.facebook.com/profile.php?id=100089802482598" > <img src="facebook.jpg" id="hl-facebook"> </a>
+        </footer>
+  </body>
+</html>

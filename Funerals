@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <style> 
+      .text {color: rgb(95, 53, 2);}
+      body {text-align: center; background-color: bisque; font-style:oblique;}
+      h1 {font-size: 120px; margin-top: 0.5em; margin-bottom: 0.4em}
+      h2 {font-size: 80px;}
+      article {font-size: 30px;}
+      form {font-size: 30px;}
+      input {font-style: oblique; font-size: 30px; height: 30px;}
+      button {font-size: 30px; font-style: oblique;}
+      section {font-size: 40px;}
+      #mm-about-us {margin-left: 20px; margin-right: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-weddings {margin-left: 20px; margin-right: 20px;  background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-home {margin-left: 20px; margin-right: 20px;  background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-events {margin-left: 20px;  background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #full-name {margin-left: 70px;}
+      #contact-number {margin-left: 0px;}
+      #email-address {margin-left: 24px;}
+      #enquiry {margin-left: 102px;}
+      #hl-instagram {width: 60px; border-radius: 50px; margin: 20px}
+      #hl-tiktok {width: 60px; border-radius: 50px; margin: 20px;}
+      #hl-facebook {width: 60px; border-radius: 50px; margin: 20px;}
+    </style>
+    <header>
+      <h1 class="text"> SJC Floral Creations </h1>
+      <p>
+      <a href="http://127.0.0.1:3000/Home" id="mm-home"> Home </a>
+      <a href="http://127.0.0.1:3000/About Us" id="mm-about-us"> About Us </a>
+      <a href="http://127.0.0.1:3000/Weddings" id="mm-weddings"> Weddings </a>
+      <a href="http://127.0.0.1:3000/Events" id="mm-events"> Events </a>
+      <h2 class="text"> Funerals </h2>
+    </header>
+      <main class="text">
+        <article>
+          <p> We send our condolences to everyone who 
+          has to visit this section of our page. When ordering
+          flowers for a funeral, it's like saying your last farewell.
+          We offer bespoke flower arrangements for our clients, if you have a vison,
+          we can create it. 
+        </article>
+        <article>
+          <p> We will take care of your order from booking right through to delivery, 
+          working closely with you and your funeral director ensuring we have all the details 
+          available to fulfil your order, giving you peace of mind.</p>
+        </article>
+        <article>
+          <p> Please submit the enquiry form below and one of the team will 
+          get in touch within ...days
+        </article>
+          <p>
+            <img src="homepicture3.jpg" width="1000px" height="600">
+              <form>
+                <section>
+                  <p>Funeral Enquiry Form
+                </section>
+                  <p> Full Name: 
+                    <input id="full-name" placeholder="Enter your full name.">
+                  <p> Contact Number:
+                    <input id="contact-number" placeholder="Enter your contact number.">
+                  <p> Email Address:
+                    <input id="email-address" placeholder="Enter your email address.">
+                  <p> Enquiry:
+                    <input id="enquiry" placeholder="Enter the details of your enquiry.">
+                  <p>
+                    <button type="submit" id="submit-form"> Submit </button>
+              </form>
+      </main>
+        <footer>
+          <a href="https://www.instagram.com/sjcfloralcreations/?hl=en"> <img src="instagram.jpg" id="hl-instagram"> </a>
+          <a href="https://www.tiktok.com/@sjcfloralcreations?lang=en" > <img src="tiktok.jpg" id="hl-tiktok"> </a>
+          <a href="https://www.facebook.com/profile.php?id=100089802482598" > <img src="facebook.jpg" id="hl-facebook"> </a>
+        </footer>
+  </body>
+</html>

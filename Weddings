@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <style> 
+      .text {color: rgb(95, 53, 2);}
+      body {text-align: center; background-color: bisque; font-style:oblique;}
+      h1 {font-size: 120px; margin-top: 0.5em; margin-bottom: 0.4em}
+      h2 {font-size: 80px;}
+      article {font-size: 30px;}
+      form {font-size: 30px;}
+      input {font-style: oblique; font-size: 30px; height: 30px;}
+      button {font-size: 30px; font-style: oblique;}
+      #wef {font-size: 40px;}
+      #mm-about-us {margin-right: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-home {margin-right: 40px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-funerals {margin-left: 20px; margin-right: 20px; background-color: rgba(95, 53, 2, 0.338);  color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-events {margin-left: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #ip-full-name {margin-left: 70px;}
+      #ip-contact-number {margin-left: 0px;}
+      #ip-email-address {margin-left: 23px;}
+      #ip-wedding-date {margin-left: 29px;}
+      #ip-venue-postcode {margin-left: 10px;}
+      #five-ten {margin-left: 63px;}
+      #twofive-five {margin-left: 19px;}
+      #one-twofive {margin-left: 18px;}
+      #hl-instagram {width: 60px; border-radius: 50px; margin: 20px}
+      #hl-tiktok {width: 60px; border-radius: 50px; margin: 20px;}
+      #hl-facebook {width: 60px; border-radius: 50px; margin: 20px;}
+    </style>
+    <header>
+        <h1 class="text"> SJC Floral Creations </h1>
+        <a href="http://127.0.0.1:3000/Home" id="mm-home"> Home </a>
+        <a href="http://127.0.0.1:3000/About Us" id="mm-about-us"> About Us </a>
+        <a href="http://127.0.0.1:3000/Funerals" id="mm-funerals"> Funerals </a>
+        <a href="http://127.0.0.1:3000/Events" id="mm-events"> Events </a>
+        <h2 class="text"> Weddings </h2>
+    </header> 
+      <main class="text">
+          <article>
+            <p>Our full wedding design service starts from £... 
+            for more intimate weddings we offer collection.
+          </article>
+          <article>
+            <p>Here is our collage of wedding projects...
+          </article>
+          <article>
+            <p>Please submit the enquiry form below and one of the team will 
+            get in touch within ...days
+          </article>
+            <p>
+              <img src="homepicture4.jpg" width="1000px" height="600">
+                <form>
+                  <section>
+                    <p id="wef"> Wedding Enquiry Form </p>
+                  </section>  
+                    <p> Full Name:
+                      <input placeholder="Enter your full name." id="ip-full-name"> 
+                    <p> Contact Number:  
+                      <input placeholder="Enter your contact number." id="ip-contact-number">
+                    <p> Email Address:
+                      <input placeholder="Enter your email address." id="ip-email-address">
+                    <p> Wedding Date:
+                      <input placeholder="Enter your partners forename." id="ip-wedding-date">
+                    <p> Venue Postcode:
+                      <input placeholder="Enter the postcode of the venue." id="ip-venue-postcode">
+                    <p>Budget:
+                      <label> 
+                        <input id="one-twofive" type="radio"> £1,000-£2,500
+                      </label>
+                      <label> 
+                        <input id="twofive-five" type="radio"> £2,500-£5,000
+                      </label>
+                        <br>
+                      <label>
+                        <input id="five-ten" type="radio"> £5,000-£10,000
+                      </label> 
+                      <label> 
+                        <input id="ten" type="radio"> £10,000+
+                      </label>
+                        <p>
+                          <!-- make the submit button submit the data to mums email address -->
+                          <button type="submit"> Submit </button> 
+                </form>
+      </main>
+        <footer>
+          <a href="https://www.instagram.com/sjcfloralcreations/?hl=en"> <img src="instagram.jpg" id="hl-instagram"> </a>
+          <a href="https://www.tiktok.com/@sjcfloralcreations?lang=en" > <img src="tiktok.jpg" id="hl-tiktok"> </a>
+          <a href="https://www.facebook.com/profile.php?id=100089802482598" > <img src="facebook.jpg" id="hl-facebook"> </a>
+        </footer>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <style> 
+      .text {color: rgb(95, 53, 2);}
+      body {text-align: center; background-color: bisque; font-style:oblique;}
+      h1 {font-size: 120px; margin-top: 0.5em; margin-bottom: 0.4em}
+      h2 {font-size: 80px;}
+      article {font-size: 30px;}
+      #mm-home {margin-right: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-weddings {margin-left: 20px; margin-right: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-funerals {margin-left: 20px; margin-right: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #mm-events {margin-left: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
+      #hl-instagram {width: 60px; border-radius: 50px; margin: 20px}
+      #hl-tiktok {width: 60px; border-radius: 50px; margin: 20px;}
+      #hl-facebook {width: 60px; border-radius: 50px; margin: 20px;}
+    </style>
+    <header>
+        <h1 class="text"> SJC Floral Creations </h1>
+        <a href="http://127.0.0.1:3000/Home" id="mm-home"> Home </a>
+        <a href="http://127.0.0.1:3000/Weddings" id="mm-weddings"> Weddings </a>
+        <a href="http://127.0.0.1:3000/Funerals" id="mm-funerals"> Funerals </a>
+        <a href="http://127.0.0.1:3000/Events" id="mm-events"> Events </a>
+        <h2 class="text"> About Us </h2>
+    </header>
+      <main class="text">
+          <article>
+            <p>SJC creations was created in 2009 by Sally John-Charles,
+            Sally started this business as a small store in blackheath
+            market... SJC creations closed... SJC creations has reopened in 2023.
+          </article>
+          <article>
+            <p> Sally achieved a diploma in floristry at the university of ... and landed a job
+            at a local florist. Here she developed her skills... she moved to London in ... where 
+            she began working in management. 
+            <p>  
+          </article>
+         <img src="homepicture.jpg" width="1000px" height="600px"> 
+          <article>
+            <p>Since  ... Sally has been working as a freelance forist, during this time she has
+            completed a multitude of projects...
+          </article>
+          <article> 
+            <p>Now in 2023 SJC Creations will be open for business from ... We will be operating 
+            in London & the Midlands.
+            <p>
+          </article>   
+      </main>   
+        <footer>
+          <a href="https://www.instagram.com/sjcfloralcreations/?hl=en"> <img src="instagram.jpg" id="hl-instagram"> </a>
+          <a href="https://www.tiktok.com/@sjcfloralcreations?lang=en" > <img src="tiktok.jpg" id="hl-tiktok"> </a>
+          <a href="https://www.facebook.com/profile.php?id=100089802482598" > <img src="facebook.jpg" id="hl-facebook"> </a>
+        </footer> 
+  </body>
+</html>
