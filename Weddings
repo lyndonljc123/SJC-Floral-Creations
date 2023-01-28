@@ -65,17 +65,17 @@
                       <input placeholder="Enter the postcode of the venue." id="ip-venue-postcode">
                     <p>Budget:
                       <label> 
-                        <input id="one-twofive" type="radio"> £1,000-£2,500
+                        <input id="one-twofive" name="budget" type="radio"> £1,000-£2,500
                       </label>
                       <label> 
-                        <input id="twofive-five" type="radio"> £2,500-£5,000
+                        <input id="twofive-five" name="budget" type="radio"> £2,500-£5,000
                       </label>
                         <br>
                       <label>
-                        <input id="five-ten" type="radio"> £5,000-£10,000
+                        <input id="five-ten" name="budget" type="radio"> £5,000-£10,000
                       </label> 
                       <label> 
-                        <input id="ten" type="radio"> £10,000+
+                        <input id="ten" name="budget" type="radio"> £10,000+
                       </label>
                         <p>
                           <!-- make the submit button submit the data to mums email address -->
