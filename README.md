@@ -15,5 +15,5 @@
  <li> Add a payment system for valentines day items </li>
  <li> Add a mailing list with automated outbound promo emails </li>
  <li> Add a chat box to the website </li>
- <li> You're still reading? Fuck off and do something useful. </li>
+ <li> You're still reading? Fuck off and do something. </li>
 </ol>
