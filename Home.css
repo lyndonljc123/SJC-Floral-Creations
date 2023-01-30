@@ -14,3 +14,5 @@
       #hl-instagram {width: 60px; border-radius: 50px; margin: 20px}
       #hl-tiktok {width: 60px; border-radius: 50px; margin: 20px;}
       #hl-facebook {width: 60px; border-radius: 50px; margin: 20px;}
+      #sidebar {margin: 0px; padding: 0px; text-align: left; position: absolute; width: 300px; height: 100%; background:rgb(95, 53, 2)}
+      #list {list-style-type: none; color:bisque; font-size: 40px; padding: 60px;}
