@@ -21,5 +21,5 @@
       #sidebar ul li {list-style-type: none;; font-size: 30px; padding: 20px}
       #sidebar.active {left: 0;}
       #sidebar .toggle-btn {position: absolute; top: 30px; left: 330px;}
-      .toggle-btn span {width: 45px; height: 4px; background-color: black; display: block; margin-top: 4px;}
+      .toggle-btn span {width: 45px; height: 4px; background-color: rgb(95, 53, 2); display: block; margin-top: 4px;}
       .sidebar-hl {text-decoration: none; color: bisque;}
