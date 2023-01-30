@@ -6,19 +6,25 @@
       form {font-size: 30px;}
       input {font-style: oblique; font-size: 30px; height: 30px;}
       button {font-size: 30px; font-style: oblique;}
+
       #wef {font-size: 40px;}
-      #mm-about-us {margin-right: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
-      #mm-home {margin-right: 40px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
-      #mm-funerals {margin-left: 20px; margin-right: 20px; background-color: rgba(95, 53, 2, 0.338);  color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
-      #mm-events {margin-left: 20px; background-color: rgba(95, 53, 2, 0.338); color: rgb(95, 53, 2); text-decoration: none; font-size: 40px;}
       #ip-full-name {margin-left: 70px;}
       #ip-contact-number {margin-left: 0px;}
       #ip-email-address {margin-left: 23px;}
       #ip-wedding-date {margin-left: 29px;}
       #ip-venue-postcode {margin-left: 10px;}
+
       #five-ten {margin-left: 63px;}
       #twofive-five {margin-left: 19px;}
       #one-twofive {margin-left: 18px;}
+
       #hl-instagram {width: 60px; border-radius: 50px; margin: 20px}
       #hl-tiktok {width: 60px; border-radius: 50px; margin: 20px;}
       #hl-facebook {width: 60px; border-radius: 50px; margin: 20px;}
+
+      #sidebar {position: absolute; width: 200px; height: 330px; background:rgb(95, 53, 2); left: -300px; transition: 0.4s;}
+      #sidebar ul li {list-style-type: none;; font-size: 30px; padding: 20px}
+      #sidebar.active {left: 0;}
+      #sidebar .toggle-btn {position: absolute; top: 30px; left: 330px;}
+      .toggle-btn span {width: 45px; height: 4px; background-color: black; display: block; margin-top: 4px;}
+      .sidebar-hl {text-decoration: none; color: bisque;}

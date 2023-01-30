@@ -2,18 +2,28 @@
 <html>
   <head>
     <link rel="stylesheet" href="Home.css">
-    <link rel="javascript" href="Home.js">
+    <script rel="javascript" src="Home.js">
+      </script>
+  <div id="sidebar">
+    <div class="toggle-btn" onclick="show()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <li><a href="http://127.0.0.1:3000/About Us.html" class="sidebar-hl">About Us</a></li>
+      <li><a href="http://127.0.0.1:3000/Weddings.html" class="sidebar-hl"> Weddings </a></li>
+      <li><a href="http://127.0.0.1:3000/Funerals.html" class="sidebar-hl"> Funerals </a></li>
+      <li><a href="http://127.0.0.1:3000/Events.html" class="sidebar-hl"> Events </a></li>
+    </ul>
+  </div>
   </head>
   <body>
     <header>
       <h1 class="text"> SJC Floral Creations </h1>
-      <a href="http://127.0.0.1:3000/About Us.html" id="mm-about-us"> About Us </a>
-      <a href="http://127.0.0.1:3000/Weddings.html" id="mm-weddings"> Weddings </a>
-      <a href="http://127.0.0.1:3000/Funerals.html" id="mm-funerals"> Funerals </a>
-      <a href="http://127.0.0.1:3000/Events.html" id="mm-events"> Events </a>
       <P>
       <img src="Zhomepicture.jpg" width="1000px" height="600px">
-      <h2 id="banner"> 
+      <h2 class="text" id="banner"> 
         Weddings - Funerals - Events 
       </h2>
     </header>
