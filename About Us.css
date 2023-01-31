@@ -1,8 +1,9 @@
       .text {color: #231f20;}
-      #logo {margin-bottom: -100px; margin-top: -150px; width: 600px; height: 600px;}
+      #logo {margin-bottom: -150px; margin-top: -150px; width: 600px; height: 600px;}
       body {text-align: center; background-color: #fdf0eb; font-family: 'IBM Plex Serif', serif;}
-      h2 {font-size: 40px; font-weight: lighter;}      
+      h2 {font-size: 40px; font-weight: lighter; background-color: #231f204f;}      
       article {font-size: 30px;}
+      .images {width: 800px; height: 500px; padding: 10px}
 
       #hl-instagram {width: 60px; border-radius: 50px; margin: 20px}
       #hl-tiktok {width: 60px; border-radius: 50px; margin: 20px;}
