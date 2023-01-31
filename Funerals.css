@@ -1,4 +1,4 @@
-.text {color: rgb(95, 53, 2);}
+.text {color: #231f20;}
       body {text-align: center; background-color: #fdf0eb; font-style:oblique;}
       h1 {font-size: 120px; margin-top: 0.5em; margin-bottom: 0.4em}
       h2 {font-size: 80px;}
@@ -17,9 +17,9 @@
       #hl-tiktok {width: 60px; border-radius: 50px; margin: 20px;}
       #hl-facebook {width: 60px; border-radius: 50px; margin: 20px;}
 
-      #sidebar {position: absolute; width: 200px; height: 330px; background:rgb(95, 53, 2); left: -300px; transition: 0.4s;}
+      #sidebar {position: absolute; width: 200px; height: 330px; background: #231f20; left: -300px; transition: 0.4s;}
       #sidebar ul li {list-style-type: none;; font-size: 30px; padding: 20px}
       #sidebar.active {left: 0;}
       #sidebar .toggle-btn {position: absolute; top: 30px; left: 330px;}
-      .toggle-btn span {width: 45px; height: 4px; background-color: rgb(95, 53, 2); display: block; margin-top: 4px;}
+      .toggle-btn span {width: 45px; height: 4px; background-color: #231f20; display: block; margin-top: 4px;}
       .sidebar-hl {text-decoration: none; color: #fdf0eb;}
