@@ -7,10 +7,7 @@
       .images {width: 800px; height: 500px; padding: 30px}
       .button {color: #231f20; background-color: #231f204f; text-decoration: none; font-size: 40px; padding-left: 10px; padding-right: 10px; padding-bottom: 4px}
       .lildescrippy {font-size: 20px; font-family: 'IBM Plex Serif', serif; margin-top: 20px;}
-      
-      #hl-instagram {width: 60px; border-radius: 50px; margin: 20px}
-      #hl-tiktok {width: 60px; border-radius: 50px; margin: 20px;}
-      #hl-facebook {width: 60px; border-radius: 50px; margin: 20px;}
+      .social-media {width: 60px; border-radius: 50px; margin: 20px}
       
       #sidebar {position: absolute; width: 200px; height: 330px; background: #231f20; left: -200px; top: -10px; transition: 0.4s;}
       #sidebar ul li {list-style-type: none; font-size: 30px; padding: 15px; margin-left: -50px;}

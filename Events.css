@@ -8,6 +8,7 @@
       button {font-size: 30px; font-family: 'IBM Plex Serif', serif;}
       section {font-size: 40px; margin-top: -15px;}
       .images {width: 800px; height: 500px; padding: 10px}
+      .social-media {width: 60px; border-radius: 50px; margin: 20px}
 
       #full-name {margin-left: 70px;}
       #contact-number {margin-left: 0px;}

@@ -7,6 +7,7 @@
       input {font-family: 'IBM Plex Serif', serif;; font-size: 30px; height: 30px;}
       button {font-size: 30px; font-family: 'IBM Plex Serif', serif;}
       .images {width: 800px; height: 500px; padding: 10px}
+      .social-media {width: 60px; border-radius: 50px; margin: 20px}
 
       #wef {font-size: 40px; margin-top: 3px;}
       #ip-full-name {margin-left: 70px;}
