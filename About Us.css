@@ -9,7 +9,7 @@
       #hl-facebook {width: 60px; border-radius: 50px; margin: 20px;}
 
       #sidebar {position: absolute; width: 200px; height: 330px; background: #231f20; left: -200px; top: -10px; transition: 0.4s;}
-      #sidebar ul li {list-style-type: none; font-size: 30px; padding: 15px;}
+      #sidebar ul li {list-style-type: none; font-size: 30px; padding: 15px; margin-left: -50px;}
       #sidebar.active {left: 0;}
       #sidebar .toggle-btn {position: absolute; top: 30px; left: 330px;}
       .toggle-btn span {width: 45px; height: 4px; background-color: #231f20; display: block; margin-top: 4px;}
