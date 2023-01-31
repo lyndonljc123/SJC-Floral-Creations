@@ -1,7 +1,7 @@
       .text {color: #231f20;}
       body {text-align: center; background-color: #fdf0eb; font-style:oblique;}
       h1 {font-size: 120px; margin-top: 0.5em; margin-bottom: 0.4em}
-      h2 {font-size: 80px; background-color: rgba(95, 53, 2, 0.338);}
+      h2 {font-size: 80px;}
       article {font-size: 30px;}
      
       #btn-about-us {color: #231f20; text-decoration: none; font-size: 30px; padding: 2px 10px 2px 10px;}
