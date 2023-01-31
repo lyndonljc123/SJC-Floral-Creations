@@ -1,5 +1,5 @@
 .text {color: rgb(95, 53, 2);}
-      body {text-align: center; background-color: bisque; font-style:oblique;}
+      body {text-align: center; background-color: #fdf0eb; font-style:oblique;}
       h1 {font-size: 120px; margin-top: 0.5em; margin-bottom: 0.4em}
       h2 {font-size: 80px;}
       article {font-size: 30px;}
@@ -27,4 +27,4 @@
       #sidebar.active {left: 0;}
       #sidebar .toggle-btn {position: absolute; top: 30px; left: 330px;}
       .toggle-btn span {width: 45px; height: 4px; background-color: rgb(95, 53, 2); display: block; margin-top: 4px;}
-      .sidebar-hl {text-decoration: none; color: bisque;}
+      .sidebar-hl {text-decoration: none; color: #fdf0eb;}
