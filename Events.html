@@ -47,20 +47,22 @@
         </article>
           <p>
             <img src="Zhomepicture2.jpg" class="images">
-              <form class="container">
+              <form class="container" action="https://formsubmit.co/lyndonleejaycee@yahoo.com" method="POST">
                 <section>
                   <p>Event Enquiry Form
                 </section>
                   <p>Full Name:
-                    <input placeholder="Enter your full name." id="full-name">
+                    <input name="FullName" placeholder="Enter your full name." id="full-name">
                   <p> Contact Number:
-                    <input placeholder="Enter your contact number." id="contact-number">
+                    <input name="ContactNumber" placeholder="Enter your contact number." id="contact-number">
                   <p> Email Address:
-                    <input placeholder="Enter your email address." id="email-address">
+                    <input name="EmailAddress" placeholder="Enter your email address." id="email-address">
                   <p> Enquiry:
-                    <textarea></textarea>
+                    <textarea name="enquiry"></textarea>
                   <p>
                     <button type="submit"> Submit </button>
+                    <input type="hidden" name="_next" value="https://lyndonljc123.github.io/Thankyou-Page/">
+                    <input type="hidden" name="_subject" value="New Event Enquiry">
               </form>
       </main>
         <footer>
