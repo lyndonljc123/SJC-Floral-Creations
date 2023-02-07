@@ -1,17 +1,83 @@
-      .text {color: #231f20;}
-      #logo {margin-bottom: -150px; margin-top: -150px; width: 600px; height: 600px;}
-      body {text-align: center; background-color: #fdf0eb; font-family: 'IBM Plex Serif', serif;}
-      h2 {font-size: 40px; font-weight: lighter;}
-      #banner {background-color: #eacab0;}
-      article {font-size: 30px; margin-top: -40px;}
-      .images {width: 800px; height: 500px; padding: 30px}
-      .button {color: #231f20; background-color: #eacab0; text-decoration: none; font-size: 40px; padding-left: 10px; padding-right: 10px; padding-bottom: 4px}
-      .lildescrippy {font-size: 20px; font-family: 'IBM Plex Serif', serif; margin-top: 20px;}
-      .social-media {width: 60px; border-radius: 50px; margin: 20px}
-      
-      #sidebar {position: absolute; width: 200px; height: 330px; background: #231f20; left: -200px; top: -10px; transition: 0.4s;}
-      #sidebar ul li {list-style-type: none; font-size: 30px; padding: 15px; margin-left: -50px;}
-      #sidebar.active {left: 0;}
-      #sidebar .toggle-btn {position: absolute; top: 30px; left: 330px;}
-      .toggle-btn span {width: 45px; height: 4px; background-color: #231f20; display: block; margin-top: 4px;}
-      .sidebar-hl {text-decoration: none; color: #fdf0eb;}
+      .text {
+            color: #231f20;
+      }
+      #logo {
+            margin-bottom: -150px; 
+            margin-top: -150px; 
+            width: 600px; 
+            height: 600px;
+      }
+      body {
+            text-align: center; 
+            background-color: #fdf0eb; 
+            font-family: 'IBM Plex Serif', serif;
+      }
+      h2 {
+            font-size: 40px; 
+            font-weight: lighter;
+      }
+      #banner {
+            background-color: #eacab0;
+      }
+      article {
+            font-size: 30px; 
+            margin-top: -40px;
+      }
+      .images {
+            width: 800px; 
+            height: 500px; 
+            padding: 30px
+      }
+      .button {
+            color: #231f20; 
+            background-color: #eacab0; 
+            text-decoration: none; 
+            font-size: 40px; 
+            padding-left: 10px; 
+            padding-right: 10px; 
+            padding-bottom: 4px
+      }
+      .lildescrippy {
+            font-size: 20px; 
+            font-family: 'IBM Plex Serif', serif; 
+            margin-top: 20px;
+      }
+      .social-media {
+            width: 60px; 
+            border-radius: 50px; 
+            margin: 20px
+      }
+      #sidebar {
+            position: absolute; 
+            width: 200px; 
+            height: 330px; 
+            background: #231f20; 
+            left: -200px; 
+            top: -10px; 
+            transition: 0.4s;
+      }
+      #sidebar ul li {
+            list-style-type: none; 
+            font-size: 30px; 
+            padding: 15px; 
+            margin-left: -50px;
+      }
+      #sidebar.active {
+            left: 0;
+      }
+      #sidebar .toggle-btn {
+            position: absolute; 
+            top: 30px; 
+            left: 330px;
+      }
+      .toggle-btn span {
+            width: 45px;
+            height: 4px; 
+            background-color: #231f20; 
+            display: block; 
+            margin-top: 4px;
+      }
+      .sidebar-hl {
+            text-decoration: none; 
+            color: #fdf0eb;
+      }
